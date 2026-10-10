@@ -12,3 +12,11 @@
 /* Marca oficial nos dois extremos do site */
 .brand-symbol{width:52px;height:52px;object-fit:contain;display:block;background:transparent}
 @media(max-width:760px){.brand-symbol{width:44px;height:44px}}
+
+/* Seção adicional: Nosso Compromisso */
+.commitment{background:#111211;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.commitment-inner{max-width:920px;text-align:center}
+.commitment-inner h2{margin-bottom:30px}
+.commitment-inner>p:not(.label){max-width:780px;margin:0 auto 20px;font-size:16px}
+.commitment-inner .commitment-highlight{color:#efd6a0!important;font-size:18px!important;line-height:1.8;border-top:1px solid var(--line);padding-top:28px;margin-top:30px!important}
+@media(max-width:760px){.commitment-inner>p:not(.label){font-size:14px}.commitment-inner .commitment-highlight{font-size:16px!important}}
