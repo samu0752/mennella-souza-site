@@ -1,45 +1,24 @@
-# Mennella & Souza — site
+# Mennella & Souza — site completo
 
-Site institucional responsivo em HTML, CSS e JavaScript.
+## Publicação no GitHub / Vercel
+1. Extraia o ZIP.
+2. No repositório do GitHub, substitua `index.html`, `styles.css`, `script.js` e `README.md` pelos novos arquivos.
+3. Envie também **toda a pasta `assets`** com a estrutura preservada.
+4. Clique em **Commit changes**. Aguarde a atualização automática na Vercel.
+5. Teste a página e a galeria no celular e no computador.
 
-## Estrutura
+## Identidade visual
+- `assets/emblema.png`: emblema redondo fornecido.
+- `assets/favicon.png`: ícone do navegador gerado a partir do emblema.
+- O cabeçalho usa **assinatura tipográfica** (nome do escritório), porque a imagem original da **logo principal** não estava disponível nos arquivos acessíveis. Não substituí a logo por uma imagem errada.
+- Quando a logo principal for enviada, podemos inseri-la no cabeçalho e no rodapé.
 
-- `index.html` — conteúdo das páginas
-- `styles.css` — visual, cores, tipografia e responsividade
-- `script.js` — menu mobile e interações
-- `assets/logo.jpeg` — logo enviada pelo cliente
+## Atenção antes de publicar
+- Confirme autorização de uso de imagem das pessoas fotografadas.
+- Revise WhatsApp, e-mail e todos os dados de contato herdados da versão anterior.
+- Revise descrições de serviços e fotos conforme regras de publicidade da OAB.
+- Os registros fotográficos têm legendas genéricas, sem alegar resultados ou localização não confirmados.
+- A inclusão do favicon não garante sua aparição imediata no Google; a indexação depende do buscador.
 
-## Rodar localmente
-
-Abra o `index.html` no navegador.
-
-Para desenvolver com VS Code, também pode instalar a extensão **Live Server** e clicar em "Go Live".
-
-## Publicar na Vercel
-
-1. Crie um repositório no GitHub.
-2. Envie estes arquivos para o repositório.
-3. Na Vercel, clique em **Add New → Project**.
-4. Importe o repositório.
-5. Como é um site estático, não é necessário configurar framework.
-6. Clique em **Deploy**.
-
-Depois, cada `git push` no repositório conectado pode gerar um novo deploy automaticamente.
-
-## O que ainda precisa ser personalizado
-
-- Número do WhatsApp
-- E-mail
-- Endereço
-- Texto oficial do escritório
-- Nomes e informações dos advogados
-- Links de redes sociais
-- Domínio próprio, se houver
-
-## Logo e favicon
-
-- `assets/emblema-redondo.png` — símbolo circular no cabeçalho.
-- `favicon.png` e `favicon-192.png` — ícones do navegador e para mecanismos de busca.
-- `assets/logo.jpeg` — logo completa original no rodapé.
-
-A exibição do favicon no Google depende da indexação e das decisões do Google.
+## Revisão editorial
+Textos revisados para clareza e precisão, sem promessas de resultados. Crédito discreto de desenvolvimento no rodapé: Samuel Xavier.
