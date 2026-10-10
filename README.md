@@ -35,3 +35,11 @@ Depois, cada `git push` no repositório conectado pode gerar um novo deploy auto
 - Nomes e informações dos advogados
 - Links de redes sociais
 - Domínio próprio, se houver
+
+## Logo e favicon
+
+- `assets/emblema-redondo.png` — símbolo circular no cabeçalho.
+- `favicon.png` e `favicon-192.png` — ícones do navegador e para mecanismos de busca.
+- `assets/logo.jpeg` — logo completa original no rodapé.
+
+A exibição do favicon no Google depende da indexação e das decisões do Google.

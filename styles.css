@@ -103,3 +103,13 @@ input:focus,textarea:focus{border-color:var(--gold)}
 .whatsapp-float:hover{transform:translateY(-3px);background:#168349}
 .whatsapp-float svg{width:25px;height:25px;flex-shrink:0}
 @media(max-width:540px){.footer-info{text-align:left}.footer-links{justify-content:flex-start}.whatsapp-float{right:15px;bottom:15px;padding:13px}.whatsapp-float span{display:none}}
+
+/* Identidade visual circular no cabeçalho */
+.brand{display:inline-flex;align-items:center;gap:12px;min-width:0}
+.brand .brand-emblem{display:block;width:58px;height:58px;object-fit:cover;border-radius:50%;mix-blend-mode:normal;flex-shrink:0}
+.brand-label{display:flex;flex-direction:column;line-height:1.05;white-space:nowrap}
+.brand-label strong{font-family:"Cormorant Garamond",Georgia,serif;font-size:25px;font-weight:700;color:var(--gold-light);letter-spacing:.1px}
+.brand-label strong span{font-size:.75em}
+.brand-label small{font-size:9px;letter-spacing:2.2px;color:var(--white);margin-top:5px}
+@media(max-width:540px){.brand{gap:8px}.brand .brand-emblem{width:44px;height:44px}.brand-label strong{font-size:19px}.brand-label small{font-size:7px;letter-spacing:1.3px}}
+@media(max-width:370px){.brand-label strong{font-size:16px}.brand-label small{font-size:6px;letter-spacing:1px}}
