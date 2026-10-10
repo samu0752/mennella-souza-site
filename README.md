@@ -1,24 +1,31 @@
-# Mennella & Souza — site completo
+# Mennella & Souza — atualização do site
 
-## Publicação no GitHub / Vercel
-1. Extraia o ZIP.
-2. No repositório do GitHub, substitua `index.html`, `styles.css`, `script.js` e `README.md` pelos novos arquivos.
-3. Envie também **toda a pasta `assets`** com a estrutura preservada.
-4. Clique em **Commit changes**. Aguarde a atualização automática na Vercel.
-5. Teste a página e a galeria no celular e no computador.
+## Importante: fotos que não aparecem
+As 8 fotos estão dentro de `assets/`. Se o GitHub recebeu apenas index.html, styles.css e script.js, as fotos não aparecem. **É necessário enviar a pasta assets inteira, incluindo as oito imagens.**
 
-## Identidade visual
-- `assets/emblema.png`: emblema redondo fornecido.
-- `assets/favicon.png`: ícone do navegador gerado a partir do emblema.
-- O cabeçalho usa **assinatura tipográfica** (nome do escritório), porque a imagem original da **logo principal** não estava disponível nos arquivos acessíveis. Não substituí a logo por uma imagem errada.
-- Quando a logo principal for enviada, podemos inseri-la no cabeçalho e no rodapé.
+Estrutura correta na RAIZ do repositório:
 
-## Atenção antes de publicar
-- Confirme autorização de uso de imagem das pessoas fotografadas.
-- Revise WhatsApp, e-mail e todos os dados de contato herdados da versão anterior.
-- Revise descrições de serviços e fotos conforme regras de publicidade da OAB.
-- Os registros fotográficos têm legendas genéricas, sem alegar resultados ou localização não confirmados.
-- A inclusão do favicon não garante sua aparição imediata no Google; a indexação depende do buscador.
+```
+index.html
+styles.css
+script.js
+assets/
+  emblema.png
+  favicon.png
+  galeria-01.jpg
+  galeria-02.jpg
+  galeria-03.jpg
+  galeria-04.jpg
+  galeria-05.jpg
+  galeria-06.jpg
+  galeria-07.jpg
+  galeria-08.jpg
+```
 
-## Revisão editorial
-Textos revisados para clareza e precisão, sem promessas de resultados. Crédito discreto de desenvolvimento no rodapé: Samuel Xavier.
+**Não** envie a pasta externa `mennella-souza-site` como subpasta: envie o CONTEÚDO dela para a raiz. No GitHub, abra **Add file > Upload files**, arraste os arquivos da raiz e a pasta `assets` (ou use git no computador), confirme em **Commit changes**. Se o navegador mostrar a versão antiga, atualize com Ctrl+F5.
+
+O emblema substituiu o monograma M&S no círculo do cabeçalho e rodapé. O ícone da aba do navegador usa `assets/favicon.png`. A imagem que o Google mostra em resultados depende da indexação do Google e pode demorar; não é possível garantir atualização imediata.
+
+Antes da publicação, confirme autorização para uso das fotos e revise os dados institucionais.
+
+Identidade: emblema transparente no cabeçalho e rodapé; favicon.ico na raiz e favicons PNG em assets. Envie a pasta assets inteira ao GitHub. O Google pode demorar a atualizar o ícone nos resultados.
