@@ -1,31 +1,34 @@
-# Mennella & Souza — atualização do site
+# Mennella & Souza — site institucional
 
-## Importante: fotos que não aparecem
-As 8 fotos estão dentro de `assets/`. Se o GitHub recebeu apenas index.html, styles.css e script.js, as fotos não aparecem. **É necessário enviar a pasta assets inteira, incluindo as oito imagens.**
+Site institucional da Mennella & Souza Advogados Associados. A página apresenta o escritório, suas áreas de atuação, registros fotográficos e canais de contato.
 
-Estrutura correta na RAIZ do repositório:
+**Site:** [mennella-souza-site.vercel.app](https://mennella-souza-site.vercel.app/)
 
-```
-index.html
-styles.css
-script.js
-assets/
-  emblema.png
-  favicon.png
-  galeria-01.jpg
-  galeria-02.jpg
-  galeria-03.jpg
-  galeria-04.jpg
-  galeria-05.jpg
-  galeria-06.jpg
-  galeria-07.jpg
-  galeria-08.jpg
-```
+## Recursos
 
-**Não** envie a pasta externa `mennella-souza-site` como subpasta: envie o CONTEÚDO dela para a raiz. No GitHub, abra **Add file > Upload files**, arraste os arquivos da raiz e a pasta `assets` (ou use git no computador), confirme em **Commit changes**. Se o navegador mostrar a versão antiga, atualize com Ctrl+F5.
+- Layout responsivo para celular e computador
+- Navegação entre as seções do site
+- Galeria de imagens com visualização ampliada
+- Formulário que prepara uma mensagem e abre o WhatsApp do escritório
+- Links para telefone, e-mail e Instagram
 
-O emblema substituiu o monograma M&S no círculo do cabeçalho e rodapé. O ícone da aba do navegador usa `assets/favicon.png`. A imagem que o Google mostra em resultados depende da indexação do Google e pode demorar; não é possível garantir atualização imediata.
+## Tecnologias
 
-Antes da publicação, confirme autorização para uso das fotos e revise os dados institucionais.
+- HTML5
+- CSS3
+- JavaScript
 
-Identidade: emblema transparente no cabeçalho e rodapé; favicon.ico na raiz e favicons PNG em assets. Envie a pasta assets inteira ao GitHub. O Google pode demorar a atualizar o ícone nos resultados.
+## Arquivos principais
+
+- `index.html`: conteúdo e estrutura da página
+- `styles.css`: estilos e layout responsivo
+- `script.js`: menu móvel, galeria e formulário de contato
+- `assets/`: emblema e imagens usadas no site
+
+## Visualização local
+
+Abra `index.html` no navegador ou inicie um servidor estático nesta pasta.
+
+## Desenvolvimento
+
+Site desenvolvido por Samuel Xavier para Mennella & Souza Advogados Associados.
