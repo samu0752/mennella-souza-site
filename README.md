@@ -1,4 +1,4 @@
-# Mennella & Souza — site institucional
+# Mennella & Souza 
 
 Site institucional da Mennella & Souza Advogados Associados. A página apresenta o escritório, suas áreas de atuação, registros fotográficos e canais de contato.
 
